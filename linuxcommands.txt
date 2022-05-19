@@ -1,0 +1,25 @@
+clear -clears all the above command
+pwd - shows the folder path
+ls -shows all the file that folder contains
+cd - change directrix (ex. cd folder/)
+mkdir - to make new folder 
+(mk dir north south  - will make two dir.)
+rmdir - remove dir.(it only delets empty )
+touch - to make a file
+open - to open a file
+mv - to rename file
+cat - prints out entire contents of file
+also we can add contents of files
+echo - add text to file
+echo hi how are you > file.txt
+sort - sorts the content
+uniq - report or omit repeated lines
+find - to find files
+find . -name .'filename' --->to find same file name
+find . -name .'*.txt*'   --->to find with this as  
+find -type f -size+10k
+df -info abt files
+history - history of the commands used
+ps- displays information about a selection of the active processes
+passwd - to change password
+

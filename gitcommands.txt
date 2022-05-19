@@ -1,0 +1,11 @@
+filename git int--> starts git
+fn git status-->to see changes
+git add . -->to make changes
+(touch hello.txt
+git add .   )
+git commit -m"write anything"-->mainly to send mssg about changes
+git log --> history of commits
+git reset commit name -->to delete changes made before this commit was made
+git stash pop --> recovers the recent deleted files
+git remote add origin ___--> to push the repo. online
+(remote used when dealing with urls)
