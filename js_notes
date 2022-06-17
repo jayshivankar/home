@@ -1,0 +1,81 @@
+** to find length
+length=name.length
+
+** nested array
+var myarray=[[1,2,3],[4,5,6],[7,8,9]]
+var mydata=myarray[0][0]
+output-->1
+
+** A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+
+ function firstfunc() {
+console.log("hello)
+}
+firstfunc()  --->to call the function,whatever is inside will execute
+
+**function arugements
+function firstfunc(a,b){
+    console.log(a-b)
+    }
+firstfunc(34,33)
+
+**return a value 
+function timesfive(num){
+    return num*5
+}
+console.log(timesfive(5))
+
+//we can use if and else if and else statements
+if (isittrue){       [isittrue is the variable name]
+    return "yes,that was true
+}
+else{
+return"that's false
+}
+console.log(trueoffalse(true))
+
+** switch
+functon func(val)
+switch(val){
+case1:
+func="hello"
+break
+
+case2:
+func="bye"
+}return func}
+console.log(func(1))
+
+**Objects in js are same as arrays instead of using pos. we use properties
+var testobj={
+    "hat":"ballcap
+    "shirt":"jersey"
+    "shoes";"cleats
+    }
+    var hatvalue = testobj.hat
+        or
+    var hatvalue = testobject["hat"]
+}
+
+**while loop
+var myarray=[]
+var i=0
+while(i<5){
+    myarray.push(i)
+    i++
+}
+console.log(myarray)
+
+**for loop
+myarray=[]
+for(var i=0,i<5,i++){
+    myarray.push(i)
+}
+console.log(myarray)
+
+**functon random(){
+return math.random()}
+console.log(random )
+
+** shortened func
