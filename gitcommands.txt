@@ -15,7 +15,6 @@ git remote add origin ___--> to push the repo. online
 git init
 git add README.md
 git commit -m "first commit"
-git branch -M main
 git remote add origin https://github.com/jayshivankar/ShoppingListItem.git
-git remote set-url origin https://<copied_token_code>@github.com/jayshivankar/<repo_name>
+git branch -M main
 git push -u origin main
