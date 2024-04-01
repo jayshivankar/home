@@ -18,3 +18,5 @@ git commit -m "first commit"
 git remote add origin https://github.com/jayshivankar/ShoppingListItem.git
 git branch -M main
 git push -u origin main
+// if using token
+git remote set-url origin https://<token>@github.com/<username>/<repo>
